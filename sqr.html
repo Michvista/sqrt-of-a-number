@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>square number</title>
+</head>
+
+<body>
+  <h1> Enter a number</h1>
+  <input type="number" id="number">
+  <button id="btn"> Submit </button>
+</body>
+<script>
+  const input = document.getElementById('number').value;
+  const btn = document.getElementById('btn');
+  btn.addEventListener('click', () => {
+    const input = document.getElementById('number').value;
+    const sqr = Math.sqrt(input);
+    alert(sqr)
+  })
+</script>
+</html>
